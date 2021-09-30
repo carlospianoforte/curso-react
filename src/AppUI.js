@@ -6,6 +6,7 @@ import { TodoList } from "./TodoList";
 import { TodoSearch } from "./TodoSearch";
 import { TodoContext } from "./TodoContext";
 import { Modal } from "./Modal";
+import { TodoForm } from "./TodoForm";
 import todo from "./images/todo.png"
 import "./styles/App.css"
 
@@ -27,12 +28,15 @@ function AppUI() {
 
       <>
       
-      <div className="App">
+      
         <img className="App-image" src={todo} alt="logo" />
       
       <TodoCounter/>
       
-      <TodoSearch/> 
+      <TodoSearch
+      
+      
+      /> 
 
         <TodoList>
 
@@ -56,7 +60,7 @@ function AppUI() {
 
         {!!openModal&&(
               <Modal>
-                  <p>{searchedTodos[0]?.text}</p>
+                  <TodoForm/>
               </Modal>
         )}
 
@@ -66,7 +70,7 @@ function AppUI() {
       <CreateTodoButton
         setOpenModal={setOpenModal} 
       />
-      </div>
+      
       
       </>
 
