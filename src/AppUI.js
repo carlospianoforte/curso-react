@@ -8,6 +8,9 @@ import { TodoContext } from "./TodoContext";
 import { Modal } from "./Modal";
 import { TodoForm } from "./TodoForm";
 import todo from "./images/todo.png"
+import { TodosLoading } from "./TodosLoading";
+import { TodosError } from "./TodosError";
+import { EmptyTodos } from "./EmptyTodos";
 import "./styles/App.css"
 
 
@@ -40,9 +43,9 @@ function AppUI() {
 
         <TodoList>
 
-          {error&& <p>error</p>}
-          {loading && <p>cargando...</p>}
-          {(!loading && !searchedTodos.length ) && <p>crear primer Todo</p>}
+          {error&& <TodosError error ={error}/>}
+          {loading && <TodosLoading/>}
+          {(!loading && !searchedTodos.length ) && <EmptyTodos/>}
 
 
           {searchedTodos.map(todo=>(

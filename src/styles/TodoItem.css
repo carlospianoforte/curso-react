@@ -23,6 +23,10 @@
   .TodoItem-p--complete {
     text-decoration: line-through;
   }
+
+  .TodoItem-p--incomplete {
+    text-decoration: none;
+  }
   
   .Icon {
     cursor: pointer;
@@ -50,7 +54,7 @@
     right: 0;
   }
   .Icon-delete:hover {
-    color: rgb(27, 0, 182);
+    color: red;
   }
 
   .TodoItem-campana{
