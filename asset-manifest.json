@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/curso-react/static/css/main.f05f8644.chunk.css",
+    "main.js": "/curso-react/static/js/main.ed85d0a9.chunk.js",
+    "main.js.map": "/curso-react/static/js/main.ed85d0a9.chunk.js.map",
+    "runtime-main.js": "/curso-react/static/js/runtime-main.dcf06854.js",
+    "runtime-main.js.map": "/curso-react/static/js/runtime-main.dcf06854.js.map",
+    "static/js/2.6354bc3d.chunk.js": "/curso-react/static/js/2.6354bc3d.chunk.js",
+    "static/js/2.6354bc3d.chunk.js.map": "/curso-react/static/js/2.6354bc3d.chunk.js.map",
+    "index.html": "/curso-react/index.html",
+    "static/css/main.f05f8644.chunk.css.map": "/curso-react/static/css/main.f05f8644.chunk.css.map",
+    "static/js/2.6354bc3d.chunk.js.LICENSE.txt": "/curso-react/static/js/2.6354bc3d.chunk.js.LICENSE.txt",
+    "static/media/cancel.a1a8f9a4.svg": "/curso-react/static/media/cancel.a1a8f9a4.svg",
+    "static/media/checkon.c586333c.svg": "/curso-react/static/media/checkon.c586333c.svg",
+    "static/media/todo.fde36f7d.png": "/curso-react/static/media/todo.fde36f7d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcf06854.js",
+    "static/js/2.6354bc3d.chunk.js",
+    "static/css/main.f05f8644.chunk.css",
+    "static/js/main.ed85d0a9.chunk.js"
+  ]
+}
