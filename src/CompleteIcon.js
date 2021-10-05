@@ -1,7 +1,16 @@
 import React from "react";
 import { TodoIcon } from "./TodoIcon";
 
-function CompleteIcon ({completed, onComplete}){
+
+
+function CompleteIcon (props){
+
+    const {completed, completeTodo} = props
+
+    const onComplete = ()=>{
+        completeTodo()
+    }
+    
     return(
         <TodoIcon
             type="check"

@@ -46,6 +46,8 @@ function AppUI() {
           {error&& <TodosError error ={error}/>}
           {loading && <TodosLoading/>}
           {(!loading && !searchedTodos.length ) && <EmptyTodos/>}
+          {(!loading && searchedTodos.length<=0 ) && "No se encontro el Todo"}
+
 
 
           {searchedTodos.map(todo=>(
@@ -53,7 +55,7 @@ function AppUI() {
               key={todo.text} 
               text={todo.text}
               completed={todo.completed}
-              onComplete={()=>completeTodo(todo.text)}
+              completeTodo={()=>completeTodo(todo.text)}
               onDelete={()=>deleteTodo(todo.text)}
 
             />
