@@ -5,15 +5,15 @@ import { CompleteIcon } from './CompleteIcon';
 import { DeleteIcon } from './DeleteIcon';
 
 function TodoItem(props) {
- 
+
      
   return (
     <li className="TodoItem">
       
 
       <CompleteIcon
-        completed={props.completed}
-        onComplete={props.onComplete}
+         completed={props.completed}
+         completeTodo={props.completeTodo} 
       />
 
           
